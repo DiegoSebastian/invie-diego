@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <title>Invie | Las mejores guitarras</title>
+  </head>
+  <body>
+    <section class="portada">
+      <header class="header contenedor">
+        <img src="images/invie.png" srcset="images/invie.png 1x, images/invie-white.png 2x" class="logo_h" alt="Logo invie">
+        <span class="burger_button icon-menu" id="burger"></span>
+        <nav class="menu" id="menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#guitarras">Guitarras</a></li>
+            <li><a href="precios.html">Precios</a></li></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="slogan contenedor">
+        <h1>Guitarras <u>Invie</u>sibles</h1>
+        <h2>Sé la estrella nde rock que siempre quisite ser</h2>
+        <button class="boton">Conoce más</button>
+      </div>
+    </section>
+    <main class="main contenedor" id="guitarras">
+      <h1 class="titleA">Nuestras Guitarras</h1>
+      <article class="guitarra1 guitarra">
+        <img src="images/invie-acustica.png" srcset="images/invie-classic2x.png 2x" height="350" alt="invie acustica">
+        <div class="desc1">
+          <h1 class="titleB">Invie acustica</h1>
+          <ol>
+            <li>Estilo vitage</li>
+            <li>Madera pura</li>
+            <li>Incluye estuche inviesible de aluminio</li>
+          </ol>
+        </div>
+      </article>
+      <article class="guitarra2 guitarra">
+        <img data-src="images/invie-classic.png" height="300" alt="invie clasica">
+        <div class="desc2">
+          <h1 class="titleB">Invie clásica</h1>
+          <ol>
+            <li>Estilo Rock</li>
+            <li>Liviana</li>
+            <li>Inicia tu camino como rockstar</li>
+          </ol>
+        </div>
+      </article>
+      <div class="videoCont">
+        <iframe class="videoResp" width="560" height="315" src="https://www.youtube.com/embed/R1dW8M4EqYY" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="contenedor cont_foot">
+        <section class="contacto">
+          <img data-src="images/invie-white.png" alt="logo invie blanco">
+          <div class="dates">
+            <div class="tel">
+              <h1>Telefono</h1>
+              <h2>+58-4147152493</h2>
+            </div>
+            <div class="email">
+              <h1>Email</h1>
+              <h2>contacto@invie.com</h2>
+            </div>
+          </div>
+        </section>
+        <section class="write">
+          <form class="formulario">
+            <div class="column1">
+              <label for="name">Nombre</label>
+              <input type="text" id="name">
+              <label for="email">E-mail</label>
+              <input type="email" id="email">
+              <label for="mujer"><input type="radio" id="mujer" name="sex">Mujer</label>
+              <label for="hombre"><input type="radio" id="hombre" name="sex">Hombre</label>
+              <div class="multi">
+                <select>
+                  <option selected value=0>¿Que necesitas?</option>
+                  <option>Cotización</option>
+                  <option>Reclamos</option>
+                  <option>Comentarios</option>
+                  <option>Otro</option>
+                </select>
+              </div>
+            </div>
+            <div class="column2">
+              <label for="area" class="area">Comentario: <textarea rows="7" cols="30"></textarea></label>
+              <input class="boton" type="submit"></input>
+            </div>
+          </form>
+        </section>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="code.js"></script>
+  </body>
+</html>
