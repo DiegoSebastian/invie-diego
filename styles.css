@@ -59,6 +59,7 @@ input {
 }
 
 .portada {
+	background-color: #385567;
 	background-image: url("images/background.png");
 	background-size: cover; 
 	height: 500px;
