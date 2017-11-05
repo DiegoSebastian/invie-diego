@@ -9,11 +9,11 @@
   <body>
     <section class="portada">
       <header class="header contenedor">
-        <img src="images/invie.png" srcset="images/invie.png 1x, images/invie-white.png 2x" class="logo_h" alt="Logo invie">
+        <img src="images/invie.png" srcset="images/invie.png 1x, images/invie.png 2x" class="logo_h" alt="Logo invie">
         <span class="burger_button icon-menu" id="burger"></span>
         <nav class="menu" id="menu">
           <ul>
-            <li><a href="/">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#guitarras">Guitarras</a></li>
             <li><a href="precios.html">Precios</a></li></li>
           </ul>
@@ -28,7 +28,7 @@
     <main class="main contenedor" id="guitarras">
       <h1 class="titleA">Nuestras Guitarras</h1>
       <article class="guitarra1 guitarra">
-        <img src="images/invie-acustica.png" srcset="images/invie-classic2x.png 2x" height="350" alt="invie acustica">
+        <img src="images/invie-acustica.png" srcset="images/invie-acustica.png 1x, images/invie-acustica2x.png 2x" height="350" alt="invie acustica">
         <div class="desc1">
           <h1 class="titleB">Invie acustica</h1>
           <ol>
@@ -39,7 +39,7 @@
         </div>
       </article>
       <article class="guitarra2 guitarra">
-        <img data-src="images/invie-classic.png" height="300" alt="invie clasica">
+        <img data-src="images/invie-classic.png | images/invie-classic2x.png" height="300" alt="invie clasica">
         <div class="desc2">
           <h1 class="titleB">Invie clásica</h1>
           <ol>
@@ -56,7 +56,7 @@
     <footer class="footer">
       <div class="contenedor cont_foot">
         <section class="contacto">
-          <img data-src="images/invie-white.png" alt="logo invie blanco">
+          <img data-src="images/invie-white.png | images/invie-white2x.png" alt="logo invie blanco">
           <div class="dates">
             <div class="tel">
               <h1>Telefono</h1>
@@ -101,17 +101,17 @@
     <script src="code.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
     <script>
-   WebFontConfig = {
-      typekit: { id: 'Open Sans' }
-   };
+       WebFontConfig = {
+          typekit: { id: 'Open Sans' }
+       };
 
-   (function(d) {
-      var wf = d.createElement('script'), s = d.scripts[0];
-      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
-      wf.async = true;
-      s.parentNode.insertBefore(wf, s);
-   })(document);
-</script>
+       (function(d) {
+          var wf = d.createElement('script'), s = d.scripts[0];
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+          wf.async = true;
+          s.parentNode.insertBefore(wf, s);
+       })(document);
+    </script>
     <link rel="stylesheet" href="styles.min.css">
   </body>
 </html>
